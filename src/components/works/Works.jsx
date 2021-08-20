@@ -33,7 +33,7 @@ export default function Works() {
         "Built a responsive personal portfolio website using React.",
       img:
         "assets/portfolio.png",
-        code:"https://github.com/ameyapoteyofficial/ameyapoteyofficial.github.io",
+        code:"https://github.com/ameyapoteyofficial/portfolio",
     },
     
   ];
