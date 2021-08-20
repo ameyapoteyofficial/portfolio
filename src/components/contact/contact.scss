@@ -1,0 +1,133 @@
+@import "../../global.scss";
+.contact{
+    background-color:$mainColor;
+    display: flex;
+    color: white;
+
+    @include mobile{
+      flex-direction: column;
+    }
+
+    .left{
+        flex: 1;
+        background-color: lightgrey;
+        overflow: hidden;
+        img{
+            height:100%;
+        }
+    }
+    .right {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        h2 {
+          font-size: 30px;
+          padding-top:5%;
+          color: whitesmoke;
+          overflow: hidden;
+          @include mobile{
+            
+            margin-bottom: 20px;
+          }
+        }
+    
+        form {
+          width: 70%;
+          height: 70%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-around;
+    
+          input {
+            width: 300px;
+            height: 30px;
+            font-size: 14px;
+            border-radius: 5px;
+            border: none;
+            @include mobile{
+              width:200px;
+              height: 150px;
+              margin-bottom: 20px;
+            }
+            &:focus {
+                outline: none;
+              }
+            
+          }
+    
+          textarea {
+            width: 300px;
+            height: 200px;
+            font-size: 14px;
+            border-radius: 5px;
+
+            @include mobile{
+              width:200px;
+              height: 500px;
+              margin-bottom: 20px;
+            }
+            &:focus {
+                outline: none;
+              }
+           
+          }
+    
+          button {
+            width: 150px;
+            height: 30px;
+            color: white;
+            background-color: $green;
+            border: none;
+            border-radius: 10px;
+            font-weight: 500;
+            cursor: pointer;
+            overflow: hidden;
+
+            @include mobile{
+              width:100px;
+              height: 200px;
+             
+            }
+    
+            &:focus {
+              outline: none;
+            }
+          }
+    
+          span {
+            color: whitesmoke;
+          }
+          
+        }
+        .iconsContainer{
+          color:white;
+          padding-top:5%;
+          overflow:hidden;
+          a{
+            text-decoration: none;
+            color:white;
+            margin-right: 10px;
+            margin-bottom:20px;
+            
+          }
+        }
+        .footer{
+          margin-top:10px;
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          overflow: hidden;
+          padding-bottom: 5%;
+          .fav{
+            margin-left:5px;
+            margin-right:5px;
+          }
+        }
+      }
+    
+}
