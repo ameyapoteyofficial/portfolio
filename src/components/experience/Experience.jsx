@@ -9,7 +9,7 @@ export default function Experience() {
       img:
         "assets/nitt.png",
       desc:
-        "Contributions include analyzing the gait parameters of Orthopaedic patients and devising a tailored recuperation strategy inlcuding designing a custom spring-based crutch for reducing joint-force imbalances and a faster recovery. ",
+        "Contributions include analyzing the gait parameters of Orthopaedic patients and devising a tailored recuperation strategy including designing a custom spring-based crutch for reducing joint-force imbalances and a faster recovery. ",
     },
     {
       id: 2,
