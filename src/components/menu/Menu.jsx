@@ -1,5 +1,5 @@
 import "./menu.scss"
-import Pdf from "../../Documents/Resume.pdf"
+import Pdf from "../../Documents/Resume-AmeyaPotey.pdf"
 
 export default function Menu({ menuOpen, setMenuOpen }) {
     return (

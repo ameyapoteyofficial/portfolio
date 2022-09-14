@@ -4,32 +4,22 @@ export default function Experience() {
   const data = [
     {
       id: 1,
-      name: "Research Assistant",
-      title: "NIT Tiruchirappalli",
+      name: "Software Engineering Intern",
+      title: "Copart",
       img:
-        "assets/nitt.png",
+        "assets/copart.png",
       desc:
-        "Contributions include analyzing the gait parameters of Orthopaedic patients and devising a tailored recuperation strategy including designing a custom spring-based crutch for reducing joint-force imbalances and a faster recovery. ",
+        "Implemented event-driven modules for the Member microservices, enhancing the user payments and refunds interface. Significant contributions include streamline currency conversion process for payments made across currencies, reducing currency conversion issues in production by 10%. ",
     },
     {
       id: 2,
-      name: "Software Developer",
-      title: "Citicorp",
+      name: "Software Engineer",
+      title: "Citi",
       img:
         "assets/Citi-logo.png",
       desc:
         "Built micro-services and full-stack web applications for Citi's Foreign Exchange and Local Markets business units. Significant contributions include building a cross-platform enterprise messaging micro-service and revamping the front-end of Citi's Global Data Mining Engine. ",
-      featured: true,
-    },
-    {
-      id: 3,
-      name: "Student Assistant",
-      title: "UT Dallas",
-      img:
-        "assets/utd.png",
-      desc:
-        "Worked on annotating and demarcating NLP data sets as a student worker in the Computer Science department. Also helped tutor and guide Undergraduate Students in the Introductory Big Data course. ",
-    },
+    }
   ];
   return (
     <div className="testimonials" id="experience">

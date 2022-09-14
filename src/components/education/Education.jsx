@@ -4,8 +4,8 @@ export default function Education() {
     const data = [
         {
           id: 1,
-          name: "B.Tech, Mechanical Engineering",
-          title: "NIT Tiruchirappalli",
+          name: "Bachelor of Technology, Engineering",
+          title: "National Institute of Technology, Trichy",
           img:
             "assets/nitt.png",
           desc:
@@ -13,7 +13,7 @@ export default function Education() {
         },
         {
           id: 2,
-          name: "MS, Computer Science (4.0/4.0)",
+          name: "MS, Computer Science (3.9/4.0)",
           title: "The University of Texas at Dallas",
           img:
             "assets/utd.png",

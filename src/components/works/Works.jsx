@@ -7,6 +7,26 @@ export default function Works() {
   const data = [
     {
       id: "3",
+      icon: "./assets/globe.png",
+      title: "RNN for Machine Translation",
+      desc:
+        "Built a RNN based model for machine translation, capable of translating English sentences to French",
+      img:
+        "assets/RNN.jpeg",
+        code:"https://github.com/ameyapoteyofficial/RNN-for-Machine-Translation",
+    },
+    {
+      id: "1",
+      icon: "./assets/mobile.png",
+      title: "Bed & Breakfast Web Application ",
+      desc:
+        "Devevloped a Web-based full-fledged Bed & Breakfast application using MERN stack",
+      img:
+        "assets/bed-and-breakfast.png",
+      code:"https://github.com/ameyapoteyofficial/Bed-and-Breakfast",
+    },
+    {
+      id: "3",
       icon: "./assets/writing.png",
       title: "DavisBase",
       desc:
@@ -15,26 +35,8 @@ export default function Works() {
         "assets/davisbase.png",
         code:"https://github.com/ameyapoteyofficial/DavisBase-DBEngine",
     },
-    {
-      id: "1",
-      icon: "./assets/mobile.png",
-      title: "Contacts Web Application ",
-      desc:
-        "Devevloped a Web-based full-fledged conatcts application using the PERN stack",
-      img:
-        "assets/contacts.png",
-      code:"https://github.com/ameyapoteyofficial/Contacts-Application",
-    },
-    {
-      id: "3",
-      icon: "./assets/globe.png",
-      title: "Personal Portfolio Website",
-      desc:
-        "Built a responsive personal portfolio website using React.",
-      img:
-        "assets/portfolio.png",
-        code:"https://github.com/ameyapoteyofficial/portfolio",
-    },
+    
+    
     
   ];
 
@@ -63,7 +65,7 @@ export default function Works() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <a href={d.code} target="_blank" rel="noreferrer">View Project &#8594;</a>
+                  <a href={d.code} target="_blank" rel="noreferrer">Source Code &#8594;</a>
                 </div>
               </div>
               <div className="right">
