@@ -196,13 +196,13 @@ body {
 .btn-secondary {
     background-color: var(--background-secondary);
     color: var(--text-primary);
-    border: 1px solid var(--border-color);
+    border: none;
     box-shadow: 0 1px 0 rgba(31, 35, 40, 0.04), inset 0 1px 0 rgba(255, 255, 255, 0.25);
 }
 
 .btn-secondary:hover {
     background-color: var(--background-tertiary);
-    border-color: var(--border-color);
+    border: none;
     box-shadow: 0 1px 0 rgba(31, 35, 40, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.03);
 }
 
@@ -297,9 +297,10 @@ body {
 
 .stats {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     margin-top: 2rem;
+    justify-content: center;
 }
 
 .stat {
@@ -329,7 +330,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-top: -2rem;
 }
 
 .profile-placeholder {
@@ -472,6 +472,14 @@ body {
     box-shadow: var(--shadow);
     margin: 0 2rem;
     position: relative;
+    border: 1px solid var(--border-color);
+    transition: var(--transition);
+}
+
+.timeline-content:hover {
+    border-color: var(--primary-color);
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-2px);
 }
 
 
