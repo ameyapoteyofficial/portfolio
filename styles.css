@@ -328,6 +328,8 @@ body {
 .about-image {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
+    margin-top: -2rem;
 }
 
 .profile-placeholder {
@@ -344,6 +346,15 @@ body {
 .profile-placeholder i {
     font-size: 5rem;
     color: white;
+}
+
+.profile-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+    box-shadow: var(--shadow-lg);
 }
 
 .skills {
